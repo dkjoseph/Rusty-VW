@@ -1,4 +1,4 @@
 Rusty-VW
 ========
 
-Drupal
+Drupal website with a BOOTSTRAP theme built with Yeomon and LESS.
