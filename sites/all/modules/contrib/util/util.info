@@ -1,0 +1,5 @@
+name = RustyVW Utilities
+description = Custom database queries to build pages
+package = RustyVW
+core = 7.x
+php = 5.2

@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_theme_registry_alter()
+**/
+function util_block_info() {
+	$blocks['util_product_category'] = array('info' => t('Util: Product Category'));
+
+	return $blocks;
+}
+
+function util_block_view($delta = '') {
+	switch($delta) {
+		case 'util_product_category':
+			if(user_access('access content')){
+				$block['subject'] = '';
+				$block['content'] = util_product_category();
+				return $block;
+			}
+			break;
+	}
+}
+
+
+function util_product_category() {
+	$data = array();
+	
+}
