@@ -1,2 +1,11 @@
 
 .buildpath
+.htaccess
+
+.settings/org.eclipse.wst.common.project.facet.core.xml
+
+includes/filetransfer/ssh.inc
+
+.project
+
+.settings/org.eclipse.php.core.prefs

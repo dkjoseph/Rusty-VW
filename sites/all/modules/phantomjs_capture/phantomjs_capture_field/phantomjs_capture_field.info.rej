@@ -1,0 +1,11 @@
+***************
+*** 3,6 ****
+  core = 7.x
+  package = Other
+  
+- dependencies[] = phantomjs_capture--- 3,7 ----
+  core = 7.x
+  package = Other
+  
++ dependencies[] = phantomjs_capture
++ dependencies[] = entity

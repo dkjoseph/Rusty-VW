@@ -9,8 +9,8 @@ dependencies[] = commerce_paypal
 core = 7.x
 
 ; Information added by Drupal.org packaging script on 2014-01-14
-version = "7.x-2.2+6-dev"
+version = "7.x-2.3"
 core = "7.x"
 project = "commerce_paypal"
-datestamp = "1389740006"
+datestamp = "1389740908"
 

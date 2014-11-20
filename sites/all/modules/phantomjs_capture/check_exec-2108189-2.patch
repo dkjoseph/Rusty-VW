@@ -1,0 +1,13 @@
+diff --git a/phantomjs_capture.module b/phantomjs_capture.module
+index b504c99..b41aed0 100644
+--- a/phantomjs_capture.module
++++ b/phantomjs_capture.module
+@@ -263,7 +263,7 @@ function phantomjs_capture_screen($url, $dest, $filename, $element = NULL) {
+   }
+ 
+   // Check that PhantomJS was able to load the page.
+-  if ($output[0] == '500') {
++  if (empty($output) || $output[0] == '500') {
+     return FALSE;
+   }
+   return TRUE;
